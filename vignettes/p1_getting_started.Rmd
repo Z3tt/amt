@@ -69,7 +69,7 @@ tr4 <- mk_track(df1, x, y, t, id = id, age = age)
 tr4
 ```
 
-### Coordinate refenece system
+### Coordinate reference system
 
 `make_track` has one further optional argument (`crs`), which allows the user to set a coordinate reference system (CRS) of the track. The CRS needs to be provided as valid `proj4string`, see the documentation of `sp::CRS` for further details. 
 
